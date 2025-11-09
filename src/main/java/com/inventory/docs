@@ -1,0 +1,13 @@
+# Inventory Management System
+
+This is a simple Java-based system for managing product inventory.
+
+## Features
+- Add, update, and delete products
+- Track stock quantity
+- Generate inventory reports
+
+## Structure
+- `src/main/java` – main source code
+- `src/test/java` – test files
+- `docs` – documentation and reports
