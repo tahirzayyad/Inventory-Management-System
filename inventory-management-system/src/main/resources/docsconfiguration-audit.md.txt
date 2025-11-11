@@ -1,0 +1,65 @@
+# Configuration Audit Report
+**Project:** Inventory Management System  
+**Repository:** https://github.com/tahirzayyad/Inventory-Management-System.git  
+**Date:** 11 Nov 2025  
+**Auditor:** Zay (Project Lead)
+
+---
+
+## 1. Objective
+The purpose of this audit is to ensure that the project repository, documentation, and codebase are consistent, traceable, and compliant with the configuration management plan. The audit verifies that:
+- All modules and files are properly version-controlled.
+- All documented changes have been implemented and tracked.
+- The project build and release artifacts match their documentation.
+
+---
+
+## 2. Scope
+This audit covers:
+- Source code in `/src`
+- Documentation in `/docs`
+- Version control (Git branches, tags, commits)
+- Release artifacts in `/dist`
+- Change Request records
+
+---
+
+## 3. Audit Checklist
+
+| Audit Item | Criteria | Status | Remarks |
+|-------------|-----------|--------|----------|
+| Repository initialized | `.git` directory present and functional | ✅ | Git repo cloned successfully |
+| Branching strategy implemented | `main`, `develop`, `feature/*` branches exist | ✅ | Verified via `git branch -a` |
+| Commit messages descriptive | Minimum 5 commits per member | ✅ | Commit logs reviewed |
+| Change Requests documented | CR-001 and CR-002 recorded | ✅ | Justifications & approvals available |
+| Build process documented | `docs/build-and-release.md` present | ✅ | Instructions verified |
+| Release tagging completed | `baseline-1`, `v1.0` tags created | ✅ | Confirmed on GitHub |
+| Code-documentation consistency | Class names, methods match docs | ✅ | Verified manually |
+| Changelog maintained | `CHANGELOG.md` updated | ✅ | Includes v1.0 changes |
+| Configuration issues resolved | All raised issues closed | ✅ | No pending CRs at time of audit |
+
+---
+
+## 4. Findings
+- All modules (`Product`, `Supplier`, `Inventory`) match documented structure.
+- Documentation is up to date with source code.
+- Tags and branches follow the defined strategy.
+- All commits reviewed and verified by at least one team member.
+- No unauthorized file changes detected.
+
+---
+
+## 5. Non-Conformances
+| Issue ID | Description | Impact | Resolution |
+|-----------|--------------|---------|-------------|
+| NC-001 | Missing README section on future updates | Low | To be included in next release |
+| NC-002 | Some feature branches not yet merged | Medium | Pending after v1.0 release |
+
+---
+
+## 6. Audit Conclusion
+The configuration audit confirms that the Inventory Management System repository is consistent, well-documented, and follows the defined configuration management processes. Minor issues are identified and scheduled for resolution in the next development cycle.
+
+**Status:** ✅ *Approved*  
+**Auditor:** Zay  
+**Date:** 11 Nov 2025
