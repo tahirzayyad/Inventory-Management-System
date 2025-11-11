@@ -1,17 +1,13 @@
-# Configuration Status Report (CSR)
-**Project:** Inventory Management System  
-**Date:** 11 Nov 2025  
-**Version:** v1.0  
-**Prepared by:** Zay  
+Configuration Status Report (CSR)
+Project: Inventory Management System  
+Date: 11 Nov 2025  
+Version: v1.0  
+Prepared by: Zay  
 
----
-
-## 1. Overview
+1. Overview
 This Configuration Status Report provides a summary of all configuration activities for the Inventory Management System project, including change tracking, version control, and release documentation.
 
----
-
-## 2. Configuration Summary
+2. Configuration Summary
 
 | Configuration Item | Version | Location | Description |
 |--------------------|----------|-----------|--------------|
@@ -21,27 +17,24 @@ This Configuration Status Report provides a summary of all configuration activit
 | Release Package | v1.0 | `/dist/InventoryManagementSystem-v1.0.jar` | Packaged JAR ready for distribution |
 | Documentation | v1.0 | `/docs` | Contains all configuration and release files |
 
----
 
-## 3. Change History
+3. Change History
 
 | Change ID | Description | Type | Status | Approved By |
 |------------|--------------|------|----------|--------------|
 | CR-001 | Add low-stock email notification | Enhancement | ✅ Approved | Zay |
 | CR-002 | Externalize DB credentials | Security | ✅ Approved | Team Lead |
 
----
 
-## 4. Issues and Resolutions
+4. Issues and Resolutions
 
 | Issue ID | Description | Impact | Resolution |
 |-----------|-------------|--------|-------------|
 | IS-001 | Merge conflict in `InventoryService.java` | Medium | Resolved during baseline review |
 | IS-002 | Incorrect product ID validation | Low | Fixed in commit #b12f3d |
 
----
 
-## 5. Repository Metrics
+5. Repository Metrics
 
 | Metric | Value |
 |---------|--------|
@@ -52,24 +45,21 @@ This Configuration Status Report provides a summary of all configuration activit
 | Change Requests Processed | 2 |
 | Open Issues | 0 |
 
----
 
-## 6. Configuration Review
+6. Configuration Review
 
 - The repository meets the standards for completeness and traceability.  
 - All configuration items are properly versioned and documented.  
 - The audit confirms readiness for deployment or further iteration.
 
----
-
-## 7. Approval
+ 7. Approval
 
 | Role | Name | Signature | Date |
 |------|------|------------|------|
 | Project Lead | Zay | ✅ | 11 Nov 2025 |
-| QA Engineer | Aisha | ✅ | 11 Nov 2025 |
-| Developer | Ibrahim | ✅ | 11 Nov 2025 |
+| QA Engineer | Abdallah | ✅ | 11 Nov 2025 |
+| Developer | Fahad | ✅ | 11 Nov 2025 |
 
----
 
-**Status:** ✅ *Approved for Release v1.0*  
+
+Status: ✅ *Approved for Release v1.0* 
