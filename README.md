@@ -1,3 +1,4 @@
+
 # Inventory Management System
 
 # Overview
@@ -25,3 +26,10 @@ It allows users to add, update, and track inventory in real time.
 2. Open in IntelliJ or VS Code  
 3. Build using Maven or Gradle  
 4. Run `Main.java`
+
+// Added by Zay for feature update
+
+## Developer Notes
+This system is part of a university project on software configuration management.
+
+develop

@@ -5,3 +5,8 @@ public class App {
         System.out.println("Welcome to Inventory Management System!");
     }
 }
+
+
+
+// TODO: Add inventory summary feature later
+ develop
