@@ -28,3 +28,6 @@ It allows users to add, update, and track inventory in real time.
 
 // Added by Zay for feature update
 
+## Developer Notes
+This system is part of a university project on software configuration management.
+
