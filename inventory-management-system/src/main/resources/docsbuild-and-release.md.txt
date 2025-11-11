@@ -1,0 +1,14 @@
+# Build and Release Management
+
+## 1. Build Process
+
+### Tools and Environment
+- **Language:** Java (JDK 17+)
+- **Build Tool:** Manual (javac / jar commands) or Maven (if used)
+- **IDE:** IntelliJ IDEA / VS Code / NetBeans
+- **Dependencies:** None external (core Java)
+
+### Build Steps (Manual Method)
+1. Navigate to the project root directory:
+   ```bash
+   cd src
