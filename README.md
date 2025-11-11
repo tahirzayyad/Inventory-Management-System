@@ -25,3 +25,6 @@ It allows users to add, update, and track inventory in real time.
 2. Open in IntelliJ or VS Code  
 3. Build using Maven or Gradle  
 4. Run `Main.java`
+
+// Added by Zay for feature update
+
