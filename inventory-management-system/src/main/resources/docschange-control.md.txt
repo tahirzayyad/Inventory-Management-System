@@ -1,0 +1,9 @@
+| Step                              | Action                                                   | Responsible          | Description                                                       |
+| --------------------------------- | -------------------------------------------------------- | -------------------- | ----------------------------------------------------------------- |
+| **1. Identify Change**            | Team member notices a bug, new feature, or improvement.  | Any member           | Describe the issue clearly and why the change is needed.          |
+| **2. Create Change Request Form** | Document proposed change using the template below.       | Requester            | Store CR in `docs/change-requests/` and/or create a GitHub Issue. |
+| **3. Review Change**              | Team lead or reviewer examines justification and impact. | Reviewer             | Approve, reject, or ask for clarification.                        |
+| **4. Implement Change**           | Approved changes go to a new feature or hotfix branch.   | Developer            | Follow branching strategy (`feature/*` or `hotfix/*`).            |
+| **5. Testing & Verification**     | Unit test + manual test to ensure fix/feature works.     | QA / developer       | Attach test results or screenshots in CR file.                    |
+| **6. Approval & Merge**           | Reviewer approves the Pull Request (PR).                 | Reviewer / Team lead | Merge to `develop`, then to `main` for release.                   |
+| **7. Update Documentation**       | Update README, changelog, and release notes.             | Requester            | Reflect the approved change.                                      |
