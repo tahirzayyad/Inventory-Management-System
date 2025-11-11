@@ -1,38 +1,35 @@
-# Change Request (CR) Form
+Change Request (CR) Form
 
-**CR ID:** CR-00X  
-**Title:**  
-**Date Submitted:**  
-**Requested By:**  
-**Reviewed By:**  
-**Status:** Pending / Approved / Rejected  
+CR ID: CR-00X  
+Title:  
+Date Submitted:  
+Requested By:  
+Reviewed By:  
+Status: Pending / Approved / Rejected  
 
----
 
-### 1. Description of Change
+1. Description of Change
 Briefly describe what needs to be changed and why.
 
-### 2. Justification
+2. Justification
 Explain the business or technical reason. (e.g., bug fix, performance improvement, usability)
 
-### 3. Impact Analysis
-- **Modules Affected:**  
-- **Estimated Effort:**  
-- **Risks:**  
-- **Testing Required:**  
-- **Documentation Updates Needed:**  
+3. Impact Analysis
+- Modules Affected: 
+- Estimated Effort:  
+- Risks: 
+- Testing Required: 
+- Documentation Updates Needed:  
 
-### 4. Proposed Solution
+4. Proposed Solution
 Describe how the change will be implemented (branch name, files affected).
 
-### 5. Approval Decision
+5. Approval Decision
 | Reviewer | Decision | Date | Remarks |
 |-----------|-----------|------|----------|
 | | Approved / Rejected | | |
 
----
-
-### 6. Implementation Record
+6. Implementation Record
 | Developer | Branch | Commit(s) | Verification Notes |
 |------------|---------|------------|---------------------|
 | | | | |
